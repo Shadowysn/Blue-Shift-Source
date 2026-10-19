@@ -1,0 +1,46 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		"title_half"
+		{
+				"file"		"sprites/gametitle"
+				"x"			"0"
+				"y"			"0"
+				"width"		"256"
+				"height"	"32"
+		}
+		"title_life"
+		{
+				"file"		"sprites/gametitle"
+				"x"			"256"
+				"y"			"0"
+				"width"		"256"
+				"height"	"32"
+		}
+		"item_battery"
+		{
+				"file"		"sprites/cs_shield"
+				"x"			"0"
+				"y"			"0"
+				"width"		"42"
+				"height"	"42"
+		}
+		"item_helmet"
+		{
+				"file"		"sprites/bs_hud"
+				"x"			"0"
+				"y"			"0"
+				"width"		"42"
+				"height"	"42"
+		}
+		"item_armorvest"
+		{
+				"file"		"sprites/bs_hud"
+				"x"			"45"
+				"y"			"0"
+				"width"		"42"
+				"height"	"42"
+		}
+	}	
+}

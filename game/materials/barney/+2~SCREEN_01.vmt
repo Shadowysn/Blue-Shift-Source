@@ -1,0 +1,39 @@
+"LightmappedGeneric"
+{
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$surfaceprop" "glass"
+	"$basetexture" "barney/+ANIM~SCREEN_01"
+	
+	"$frameOffsetVar" "2"
+	"$frameMax" "3" // WrapMinMax considers equal max value to be overlapping and sets it to min
+	
+	"$frameOffsetZeroVar" "0"
+	
+	"Proxies"
+	{
+		"Equals"
+		{
+			"srcVar1" "$frameOffsetZeroVar"
+			"resultVar" "$frame"
+		}
+		"ToggleTexture"
+		{
+			"toggleTextureVar" "$basetexture"
+			"toggleTextureFrameNumVar" "$frame"
+		}
+		"Add"
+		{
+			"srcVar1" "$frame"
+			"srcVar2" "$frameOffsetVar"
+			"resultVar" "$frame"
+		}
+		"WrapMinMax"
+		{
+			"srcVar1" "$frame"
+			"minVal" "$frameOffsetZeroVar"
+			"maxVal" "$frameMax"
+			"resultVar" "$frame"
+		}
+	}
+}

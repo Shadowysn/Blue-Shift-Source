@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$znearer" 1
+	"$basetexture" "effects/interlace"
+	"$translucent" "1"
+	//"$alpha" "0."
+	"$additive" "1"
+}

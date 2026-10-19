@@ -1,0 +1,8 @@
+version 1
+nodes
+  0 "food_gen" -1
+end
+skeleton
+  time 0
+    0 -0.007058 -0.135670 0.150608 0.006602 -3.139330 1.554127
+end

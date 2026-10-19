@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$surfaceprop" "metal"
+	"$basetexture" "barney/+ANIM~FGEN_SW2"
+	"Proxies"
+	{
+		"ToggleTexture"
+		{
+			"toggletexturevar" "$basetexture"
+			"toggletextureframenumvar" "$frame"
+		}
+	}
+}

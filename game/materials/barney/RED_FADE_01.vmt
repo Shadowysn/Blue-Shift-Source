@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$basetexture" "barney/RED_FADE_01"
+	"$surfaceprop" "default"
+	"$translucent" "1"
+	"$additive" "1"
+}

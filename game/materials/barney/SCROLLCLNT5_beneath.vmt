@@ -1,0 +1,59 @@
+"LightmappedGeneric"
+{
+	"$abovewater" 0
+	"$basetexture" "barney/SCROLLCLNT5"
+	"$translucent" "1"
+	"$alpha" "0.95"
+	
+	"%compilewater" 1
+	"$surfaceprop" "water"
+	
+	"$fogenable" 1
+	"$fogcolor" "{22 20 10}"
+	"$fogstart" 1.00
+	"$fogend" 400.00
+	
+	"$angle" 0
+	"$translate" 0
+	"$scale" "[.5 .5]"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" 7
+			"sinemin" "1.0"
+			"sinemax" "1.001"
+			"resultVar" "$scale"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" 8
+			"sinemin" "-.05"
+			"sinemax" ".05"
+			"resultVar" "$translate"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" 17
+			"sinemin" ".15"
+			"sinemax" ".05"
+			"resultVar" "$angle"
+		}
+
+		"ConveyorScroll"
+		{
+			"textureScrollVar" "$translate"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"rotateVar" "$angle"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

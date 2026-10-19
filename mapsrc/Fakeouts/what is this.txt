@@ -1,0 +1,2 @@
+Fake maps that lead to credits for early releases of Blue Shift Source, when chapters were not yet finished with decompiled brushwork fixing
+ba_teleport2_fakeout is the most interesting as it was an entire endless Last Stand minigame, but it is unfinished and ultimately unreleased

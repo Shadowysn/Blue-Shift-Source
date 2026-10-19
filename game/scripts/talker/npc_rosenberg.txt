@@ -1,0 +1,154 @@
+
+
+response RosenbergPLFear sentence RO_PLFEAR delay 5 soundlevel "SNDLVL_NORM"
+response RosenbergFear sentence RO_FEAR delay 5 soundlevel "SNDLVL_NORM"
+response RosenbergHeal sentence RO_HEAL delay 2 soundlevel "SNDLVL_NORM"
+response RosenbergScream sentence RO_SCREAM delay "3,6" soundlevel "SNDLVL_NORM"
+//response RosenbergPOk sentence RO_POK delay 2 soundlevel "SNDLVL_NORM"
+
+//response "RosenbergAnswer" sentence "RO_ANSWER" defaultdelay
+//response "RosenbergStare" sentence "RO_STARE" delay "5,7.5"
+response "RosenbergOk" sentence "RO_OK" defaultdelay
+response "RosenbergWait" sentence "RO_WAIT"
+response "RosenbergStop" sentence "RO_STOP" delay "2,2.5"  soundlevel "SNDLVL_NORM"
+response "RosenbergScared" sentence "RO_SCARED" delay "0,0.4"
+response "RosenbergCureA" sentence "RO_CUREA"  defaultdelay speakonce
+response "RosenbergCureB" sentence "RO_CUREB"  defaultdelay speakonce
+response "RosenbergCureC" sentence "RO_CUREC"  defaultdelay speakonce
+//response "RosenbergSmell" sentence "RO_SMELL" defaultdelay respeakdelay "60"
+response "RosenbergWound" sentence "RO_WOUND"  speakonce defaultdelay
+response "RosenbergMortal" sentence "RO_MORTAL"  speakonce defaultdelay
+
+//response "RosenbergQuestionPreDisaster" sentence "RO_PQUEST" defaultdelay
+//response "RosenbergQuestionPostDisaster" sentence "RO_QUESTION" defaultdelay
+//response "RosenbergIdlePreDisaster" sentence "RO_PIDLE" defaultdelay
+//response "RosenbergIdlePostDisaster" sentence "RO_IDLE" defaultdelay
+//response "RosenbergHelloPreDisaster" sentence "RO_PHELLO" speakonce defaultdelay
+response "RosenbergHelloPostDisaster" sentence "RO_HELLO" delay "3,3.5" speakonce
+
+criterion "ConceptRosenbergPLFear" "Concept" "SC_PLFEAR" required
+criterion "ConceptRosenbergFear" "Concept" "SC_FEAR" required
+criterion "ConceptRosenbergHeal" "Concept" "SC_HEAL" required
+criterion "ConceptRosenbergScream" "Concept" "SC_SCREAM" required
+//criterion "ConceptRosenbergPOk" "Concept" "SC_POK" required
+
+response "RosenbergPain" sentence "RO_PAIN" defaultdelay
+criterion "ConceptRosenbergPain" "Concept" "SC_PAIN" required
+
+criterion "IsRosenberg" "classname" "monster_rosenberg" required
+
+rule RosenbergPLFear
+{
+	criteria IsRosenberg ConceptRosenbergPLFear
+	response RosenbergPLFear
+}
+rule RosenbergFear
+{
+	criteria IsRosenberg ConceptRosenbergFear
+	response RosenbergFear
+}
+rule RosenbergHeal
+{
+	criteria IsRosenberg ConceptRosenbergHeal
+	response RosenbergHeal
+}
+rule RosenbergScream
+{
+	criteria IsRosenberg ConceptRosenbergScream
+	response RosenbergScream
+}
+rule RosenbergPain
+{
+	criteria IsRosenberg ConceptRosenbergPain
+	response RosenbergPain
+}
+//rule RosenbergPOk
+//{
+//	criteria IsRosenberg ConceptRosenbergPOk
+//	response RosenbergPOk
+//}
+
+//rule RosenbergTlkAnswer
+//{
+//	criteria		IsRosenberg ConceptTalkAnswer
+//	response		RosenbergAnswer
+//}
+//rule RosenbergTlkStare
+//{
+//	criteria		IsRosenberg ConceptTalkStare
+//	response		RosenbergStare
+//}
+
+rule RosenbergTlkStartFollow
+{
+	criteria		IsRosenberg ConceptTalkStartFollow
+	response		RosenbergOk
+}
+
+rule RosenbergTlkStopFollow
+{
+	criteria		IsRosenberg ConceptTalkStopFollow
+	response		RosenbergWait
+}
+
+rule RosenbergTlkStop
+{
+	criteria		IsRosenberg ConceptTalkStop
+	response		RosenbergStop
+}
+
+rule RosenbergTlkNoShoot
+{
+	criteria		IsRosenberg ConceptTalkNoShoot
+	response		RosenbergScared
+}
+
+rule RosenbergPlayerHurt1
+{
+	criteria		IsRosenberg ConceptTalkPlayerHurt1
+	response		RosenbergCureA
+}
+rule RosenbergPlayerHurt2
+{
+	criteria		IsRosenberg ConceptTalkPlayerHurt2
+	response		RosenbergCureB
+}
+rule RosenbergPlayerHurt3
+{
+	criteria		IsRosenberg ConceptTalkPlayerHurt3
+	response		RosenbergCureC
+}
+
+//rule RosenbergTlkSmell
+//{
+//	criteria		IsRosenberg ConceptTalkSmell
+//	response		RosenbergSmell
+//}
+rule RosenbergTlkWound
+{
+	criteria		IsRosenberg ConceptTalkWound
+	response		RosenbergWound
+}
+rule RosenbergTlkMortal
+{
+	criteria		IsRosenberg ConceptTalkMortal
+	response		RosenbergMortal
+}
+
+
+rule RosenbergTlkHelloPost
+{
+	criteria		IsRosenberg ConceptTalkHello IsPostDisaster
+	response		RosenbergHelloPostDisaster
+}
+
+//rule RosenbergTlkQuestionPost
+//{
+//	criteria		IsRosenberg ConceptTalkQuestion IsPostDisaster
+//	response		RosenbergQuestionPostDisaster
+//}
+//rule RosenbergTlkIdlePost
+//{
+//	criteria		IsRosenberg ConceptTalkIdle IsPostDisaster
+//	response		RosenbergIdlePostDisaster
+//}

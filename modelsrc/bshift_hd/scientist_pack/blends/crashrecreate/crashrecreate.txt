@@ -1,0 +1,1 @@
+try to copy all of Bip01 R Hand's keyframes in manualtranslate onto Bip01 R Hand.IK in scientist_hd_mdl

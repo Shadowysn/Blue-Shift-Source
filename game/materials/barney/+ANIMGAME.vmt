@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$surfaceprop" "glass"
+	"$basetexture" "barney/+ANIMGAME"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "10"
+		}
+	}
+}

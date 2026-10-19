@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"%compilepassbullets" 1
+	"$alphatest" 1
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$surfaceprop" "metalgrate"
+	"$basetexture" "barney/{RAILING_04"
+}

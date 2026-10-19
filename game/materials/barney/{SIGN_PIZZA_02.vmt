@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$alphatest" 1
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$basetexture" "barney/{SIGN_PIZZA_02"
+	"$surfaceprop" "metal"
+}

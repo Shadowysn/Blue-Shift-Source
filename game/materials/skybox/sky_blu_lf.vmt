@@ -1,0 +1,5 @@
+"UnlitGeneric"
+Sky
+$ignorez 1
+	"$baseTexture" "skybox/sky_blu_lf"
+}

@@ -1,0 +1,50 @@
+"LightmappedGeneric"
+{
+	"$abovewater" 1
+	"$basetexture" "barney/BA_OIL_01"
+	"$translucent" "1"
+	"$alpha" "1"
+	
+	"%compilewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "barney/BA_OIL_01_beneath"
+	
+	"$angle" 0
+	"$translate" 0
+	"$scale" "[.5 .5]"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" 10
+			"sinemin" "1.0"
+			"sinemax" "1.001"
+			"resultVar" "$scale"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" 13
+			"sinemin" "-.05"
+			"sinemax" ".05"
+			"resultVar" "$translate"
+		}
+		
+		"Sine"
+		{
+			"sineperiod" 26
+			"sinemin" ".15"
+			"sinemax" ".05"
+			"resultVar" "$angle"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"rotateVar" "$angle"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+gauss is identical to normal HL:S but we need to compile it as normal HD model is overridden by normal model

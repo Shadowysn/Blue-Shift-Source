@@ -1,0 +1,39 @@
+"LightmappedGeneric"
+{
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$surfaceprop" "metal"
+	"$basetexture" "barney/+ANIM~BA_ELEV_PAN"
+	
+	"$frameOffsetVar" "3"
+	"$frameMax" "4" // WrapMinMax considers equal max value to be overlapping and sets it to min
+	
+	"$frameOffsetZeroVar" "0"
+	
+	"Proxies"
+	{
+		"Equals"
+		{
+			"srcVar1" "$frameOffsetZeroVar"
+			"resultVar" "$frame"
+		}
+		"ToggleTexture"
+		{
+			"toggleTextureVar" "$basetexture"
+			"toggleTextureFrameNumVar" "$frame"
+		}
+		"Add"
+		{
+			"srcVar1" "$frame"
+			"srcVar2" "$frameOffsetVar"
+			"resultVar" "$frame"
+		}
+		"WrapMinMax"
+		{
+			"srcVar1" "$frame"
+			"minVal" "$frameOffsetZeroVar"
+			"maxVal" "$frameMax"
+			"resultVar" "$frame"
+		}
+	}
+}
