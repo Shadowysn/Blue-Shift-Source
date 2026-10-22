@@ -1,0 +1,1 @@
+TODO find a way to port over the position and angle values of bones from HD model to LD in scientist_mdl.blend, then bake as new rest position to fix ragdoll and use HD model ragdoll

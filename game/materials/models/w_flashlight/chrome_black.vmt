@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+//{
+//	"$detail" "detail/detail_noise1"
+//	"$detailscale" 2.5
+//	"$basetexture" "models/w_flashlight/chrome_black"
+//}
+{
+	"$envmap"			"models/w_flashlight/chrome_black"
+	"$envmapsphere"			1
+	"$envmapmode" 1
+
+	// requred to see specular on dx6+7 at all
+	"$multipass" 1
+}
