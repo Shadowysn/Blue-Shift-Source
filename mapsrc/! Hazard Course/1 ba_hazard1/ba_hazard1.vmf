@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8872"
-	"mapversion" "347"
+	"mapversion" "348"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -56,7 +56,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "128"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -131,7 +131,7 @@ bgimages_plus
 world
 {
 	"id" "0"
-	"mapversion" "347"
+	"mapversion" "348"
 	"classname" "worldspawn"
 	"_generator" "J.A.C.K. 1.1.1064 (vpHalfLife)"
 	"detailmaterial" "detail/detailsprites"
@@ -24355,13 +24355,13 @@ world
 		side
 		{
 			"id" "23221"
-			"plane" "(1684 484 148) (1684 484 -100) (1684 640 -100)"
+			"plane" "(1680 484 -100) (1680 640 -100) (1680 640 148)"
 			vertices_plus
 			{
-				"v" "1684 484 148"
-				"v" "1684 484 -100"
-				"v" "1684 640 -100"
-				"v" "1684 640 148"
+				"v" "1680 484 -100"
+				"v" "1680 640 -100"
+				"v" "1680 640 148"
+				"v" "1680 484 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.75"
@@ -24373,13 +24373,13 @@ world
 		side
 		{
 			"id" "23220"
-			"plane" "(1688 640 148) (1688 640 -100) (1688 484 -100)"
+			"plane" "(1688 640 -100) (1688 484 -100) (1688 484 148)"
 			vertices_plus
 			{
-				"v" "1688 640 148"
 				"v" "1688 640 -100"
 				"v" "1688 484 -100"
 				"v" "1688 484 148"
+				"v" "1688 640 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.75"
@@ -24391,13 +24391,13 @@ world
 		side
 		{
 			"id" "23219"
-			"plane" "(1688 484 148) (1688 484 -100) (1684 484 -100)"
+			"plane" "(1688 484 -100) (1680 484 -100) (1680 484 148)"
 			vertices_plus
 			{
-				"v" "1688 484 148"
 				"v" "1688 484 -100"
-				"v" "1684 484 -100"
-				"v" "1684 484 148"
+				"v" "1680 484 -100"
+				"v" "1680 484 148"
+				"v" "1688 484 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24409,13 +24409,13 @@ world
 		side
 		{
 			"id" "23218"
-			"plane" "(1684 640 148) (1684 640 -100) (1688 640 -100)"
+			"plane" "(1680 640 -100) (1688 640 -100) (1688 640 148)"
 			vertices_plus
 			{
-				"v" "1684 640 148"
-				"v" "1684 640 -100"
+				"v" "1680 640 -100"
 				"v" "1688 640 -100"
 				"v" "1688 640 148"
+				"v" "1680 640 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24427,13 +24427,13 @@ world
 		side
 		{
 			"id" "23217"
-			"plane" "(1684 640 -100) (1684 484 -100) (1688 484 -100)"
+			"plane" "(1680 484 -100) (1688 484 -100) (1688 640 -100)"
 			vertices_plus
 			{
-				"v" "1684 640 -100"
-				"v" "1684 484 -100"
+				"v" "1680 484 -100"
 				"v" "1688 484 -100"
 				"v" "1688 640 -100"
+				"v" "1680 640 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24445,13 +24445,13 @@ world
 		side
 		{
 			"id" "23216"
-			"plane" "(1684 484 148) (1684 640 148) (1688 640 148)"
+			"plane" "(1680 640 148) (1688 640 148) (1688 484 148)"
 			vertices_plus
 			{
-				"v" "1684 484 148"
-				"v" "1684 640 148"
+				"v" "1680 640 148"
 				"v" "1688 640 148"
 				"v" "1688 484 148"
+				"v" "1680 484 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 -8] 1"
@@ -24473,13 +24473,13 @@ world
 		side
 		{
 			"id" "23227"
-			"plane" "(1436 616 -100) (1436 772 -100) (1436 772 148)"
+			"plane" "(1432 772 -100) (1432 772 148) (1432 616 148)"
 			vertices_plus
 			{
-				"v" "1436 616 -100"
-				"v" "1436 772 -100"
-				"v" "1436 772 148"
-				"v" "1436 616 148"
+				"v" "1432 772 -100"
+				"v" "1432 772 148"
+				"v" "1432 616 148"
+				"v" "1432 616 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.75"
@@ -24491,13 +24491,13 @@ world
 		side
 		{
 			"id" "23226"
-			"plane" "(1592 772 -100) (1592 616 -100) (1592 616 148)"
+			"plane" "(1596 616 -100) (1596 616 148) (1596 772 148)"
 			vertices_plus
 			{
-				"v" "1592 772 -100"
-				"v" "1592 616 -100"
-				"v" "1592 616 148"
-				"v" "1592 772 148"
+				"v" "1596 616 -100"
+				"v" "1596 616 148"
+				"v" "1596 772 148"
+				"v" "1596 772 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.75"
@@ -24509,13 +24509,13 @@ world
 		side
 		{
 			"id" "23225"
-			"plane" "(1592 616 -100) (1436 616 -100) (1436 616 148)"
+			"plane" "(1432 616 -100) (1432 616 148) (1596 616 148)"
 			vertices_plus
 			{
-				"v" "1592 616 -100"
-				"v" "1436 616 -100"
-				"v" "1436 616 148"
-				"v" "1592 616 148"
+				"v" "1432 616 -100"
+				"v" "1432 616 148"
+				"v" "1596 616 148"
+				"v" "1596 616 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24527,13 +24527,13 @@ world
 		side
 		{
 			"id" "23224"
-			"plane" "(1436 772 -100) (1592 772 -100) (1592 772 148)"
+			"plane" "(1596 772 -100) (1596 772 148) (1432 772 148)"
 			vertices_plus
 			{
-				"v" "1436 772 -100"
-				"v" "1592 772 -100"
-				"v" "1592 772 148"
-				"v" "1436 772 148"
+				"v" "1596 772 -100"
+				"v" "1596 772 148"
+				"v" "1432 772 148"
+				"v" "1432 772 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24545,13 +24545,13 @@ world
 		side
 		{
 			"id" "23223"
-			"plane" "(1436 616 -100) (1592 616 -100) (1592 772 -100)"
+			"plane" "(1596 616 -100) (1596 772 -100) (1432 772 -100)"
 			vertices_plus
 			{
-				"v" "1436 616 -100"
-				"v" "1592 616 -100"
-				"v" "1592 772 -100"
-				"v" "1436 772 -100"
+				"v" "1596 616 -100"
+				"v" "1596 772 -100"
+				"v" "1432 772 -100"
+				"v" "1432 616 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24563,13 +24563,13 @@ world
 		side
 		{
 			"id" "23222"
-			"plane" "(1436 772 148) (1592 772 148) (1592 616 148)"
+			"plane" "(1596 772 148) (1596 616 148) (1432 616 148)"
 			vertices_plus
 			{
-				"v" "1436 772 148"
-				"v" "1592 772 148"
-				"v" "1592 616 148"
-				"v" "1436 616 148"
+				"v" "1596 772 148"
+				"v" "1596 616 148"
+				"v" "1432 616 148"
+				"v" "1432 772 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 -8] 1"
@@ -24827,13 +24827,13 @@ world
 		side
 		{
 			"id" "23215"
-			"plane" "(1188 484 -100) (1188 640 -100) (1188 640 148)"
+			"plane" "(1184 640 -100) (1184 640 148) (1184 484 148)"
 			vertices_plus
 			{
-				"v" "1188 484 -100"
-				"v" "1188 640 -100"
-				"v" "1188 640 148"
-				"v" "1188 484 148"
+				"v" "1184 640 -100"
+				"v" "1184 640 148"
+				"v" "1184 484 148"
+				"v" "1184 484 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.75"
@@ -24845,13 +24845,13 @@ world
 		side
 		{
 			"id" "23214"
-			"plane" "(1344 640 -100) (1344 484 -100) (1344 484 148)"
+			"plane" "(1348 484 -100) (1348 484 148) (1348 640 148)"
 			vertices_plus
 			{
-				"v" "1344 640 -100"
-				"v" "1344 484 -100"
-				"v" "1344 484 148"
-				"v" "1344 640 148"
+				"v" "1348 484 -100"
+				"v" "1348 484 148"
+				"v" "1348 640 148"
+				"v" "1348 640 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[0 1 0 0] 0.75"
@@ -24863,13 +24863,13 @@ world
 		side
 		{
 			"id" "23213"
-			"plane" "(1344 484 -100) (1188 484 -100) (1188 484 148)"
+			"plane" "(1184 484 -100) (1184 484 148) (1348 484 148)"
 			vertices_plus
 			{
-				"v" "1344 484 -100"
-				"v" "1188 484 -100"
-				"v" "1188 484 148"
-				"v" "1344 484 148"
+				"v" "1184 484 -100"
+				"v" "1184 484 148"
+				"v" "1348 484 148"
+				"v" "1348 484 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24881,13 +24881,13 @@ world
 		side
 		{
 			"id" "23212"
-			"plane" "(1188 640 -100) (1344 640 -100) (1344 640 148)"
+			"plane" "(1348 640 -100) (1348 640 148) (1184 640 148)"
 			vertices_plus
 			{
-				"v" "1188 640 -100"
-				"v" "1344 640 -100"
-				"v" "1344 640 148"
-				"v" "1188 640 148"
+				"v" "1348 640 -100"
+				"v" "1348 640 148"
+				"v" "1184 640 148"
+				"v" "1184 640 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24899,13 +24899,13 @@ world
 		side
 		{
 			"id" "23211"
-			"plane" "(1188 484 -100) (1344 484 -100) (1344 640 -100)"
+			"plane" "(1348 484 -100) (1348 640 -100) (1184 640 -100)"
 			vertices_plus
 			{
-				"v" "1188 484 -100"
-				"v" "1344 484 -100"
-				"v" "1344 640 -100"
-				"v" "1188 640 -100"
+				"v" "1348 484 -100"
+				"v" "1348 640 -100"
+				"v" "1184 640 -100"
+				"v" "1184 484 -100"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 0] 0.75"
@@ -24917,13 +24917,13 @@ world
 		side
 		{
 			"id" "23210"
-			"plane" "(1188 640 148) (1344 640 148) (1344 484 148)"
+			"plane" "(1348 640 148) (1348 484 148) (1184 484 148)"
 			vertices_plus
 			{
-				"v" "1188 640 148"
-				"v" "1344 640 148"
-				"v" "1344 484 148"
-				"v" "1188 484 148"
+				"v" "1348 640 148"
+				"v" "1348 484 148"
+				"v" "1184 484 148"
+				"v" "1184 640 148"
 			}
 			"material" "TOOLS/TOOLSCLIP"
 			"uaxis" "[1 0 0 -8] 1"
@@ -69377,7 +69377,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -69682,7 +69682,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -69803,7 +69803,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -69924,7 +69924,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70045,7 +70045,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70166,7 +70166,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70287,7 +70287,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70408,7 +70408,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70529,7 +70529,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70733,7 +70733,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -70939,7 +70939,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -71557,7 +71557,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -71951,7 +71951,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -72091,7 +72091,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -72308,7 +72308,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -72448,7 +72448,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -72799,7 +72799,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -72959,7 +72959,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -73133,7 +73133,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -73465,7 +73465,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -73605,7 +73605,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -74108,7 +74108,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -74713,7 +74713,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -74834,7 +74834,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -77080,7 +77080,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -77220,7 +77220,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -77359,7 +77359,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -90124,7 +90124,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -90245,7 +90245,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -90366,7 +90366,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -90506,7 +90506,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -90819,7 +90819,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -92426,7 +92426,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -92547,7 +92547,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -92668,7 +92668,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -103070,7 +103070,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -103191,7 +103191,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -103312,7 +103312,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -105359,7 +105359,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -105828,7 +105828,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -106931,7 +106931,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107091,7 +107091,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107212,7 +107212,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107702,7 +107702,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111326,7 +111326,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111783,7 +111783,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111904,7 +111904,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112045,7 +112045,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112166,7 +112166,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113403,7 +113403,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113524,7 +113524,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113664,7 +113664,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113785,7 +113785,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -115214,7 +115214,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -115525,7 +115525,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -115665,7 +115665,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -115998,7 +115998,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -116138,7 +116138,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -130302,7 +130302,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -130495,7 +130495,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -130688,7 +130688,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -130809,7 +130809,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -131136,7 +131136,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -131553,7 +131553,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -131770,7 +131770,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -132098,7 +132098,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -132339,7 +132339,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -132479,7 +132479,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -132639,7 +132639,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -132955,7 +132955,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -133307,7 +133307,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -136092,7 +136092,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -136558,7 +136558,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -136938,7 +136938,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -137078,7 +137078,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -137218,7 +137218,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -137357,7 +137357,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -137478,7 +137478,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -138829,7 +138829,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -138950,7 +138950,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -139071,7 +139071,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -139192,7 +139192,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -139313,7 +139313,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151211,7 +151211,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151332,7 +151332,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151453,7 +151453,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151593,7 +151593,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151733,7 +151733,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151854,7 +151854,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -151975,7 +151975,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159164,7 +159164,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159304,7 +159304,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159425,7 +159425,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159546,7 +159546,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159667,7 +159667,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159788,7 +159788,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -159909,7 +159909,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -160030,7 +160030,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -160151,7 +160151,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -160272,7 +160272,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -160589,7 +160589,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -160710,7 +160710,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -160831,7 +160831,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -161215,7 +161215,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -161422,7 +161422,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -161612,7 +161612,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -161733,7 +161733,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -162013,7 +162013,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -162395,7 +162395,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -162516,7 +162516,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -162637,7 +162637,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -162777,7 +162777,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -162898,7 +162898,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -163185,7 +163185,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -163346,7 +163346,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -163467,7 +163467,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -163588,7 +163588,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -164192,7 +164192,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -164469,7 +164469,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -164590,7 +164590,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -164711,7 +164711,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -165043,7 +165043,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
