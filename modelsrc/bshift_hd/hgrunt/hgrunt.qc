@@ -119,13 +119,13 @@ $sequence "leftarmflinch" {
 }
 $sequence "launchgrenade" {
 	"hgrunt_anims\launchgrenade"
-	ACT_RANGE_ATTACK2 1
+	activity "ACT_GRUNT_LAUNCH_GRENADE" 1
 	{ event 8 24 }
 	fps 30
 }
 $sequence "throwgrenade" {
 	"hgrunt_anims\throwgrenade"
-	ACT_RANGE_ATTACK2 1
+	activity "ACT_GRUNT_TOSS_GRENADE" 1
 	{ event 7 34 }
 	fps 30
 }
@@ -167,7 +167,7 @@ $sequence "crouching_wait" {
 $sequence "crouching_mp5" {
 	"hgrunt_anims\crouching_mp5_blend01"
 	"hgrunt_anims\crouching_mp5_blend02"
-	ACT_RANGE_ATTACK1 1
+	activity "ACT_GRUNT_MP5_CROUCHING" 1
 	blend XR -45 45
 	{ event 4 1 }
 	{ event 5 5 }
@@ -181,6 +181,7 @@ $sequence "crouching_mp5" {
 $sequence "standing_mp5" {
 	"hgrunt_anims\standing_mp5_blend01"
 	"hgrunt_anims\standing_mp5_blend02"
+	activity "ACT_GRUNT_MP5_STANDING" 1
 	blend XR -45 45
 	{ event 4 1 }
 	{ event 5 5 }
@@ -200,7 +201,7 @@ $sequence "reload_mp5" {
 $sequence "crouching_shotgun" {
 	"hgrunt_anims\crouching_shotgun_blend01"
 	"hgrunt_anims\crouching_shotgun_blend02"
-	ACT_RANGE_ATTACK1 1
+	activity "ACT_GRUNT_SHOTGUN_CROUCHING" 1
 	blend XR -45 45
 	{ event 4 1 }
 	{ event 5001 1 "51" }
@@ -209,6 +210,7 @@ $sequence "crouching_shotgun" {
 $sequence "standing_shotgun" {
 	"hgrunt_anims\standing_shotgun_blend01"
 	"hgrunt_anims\standing_shotgun_blend02"
+	activity "ACT_GRUNT_SHOTGUN_STANDING" 1
 	blend XR -45 45
 	{ event 4 1 }
 	{ event 5001 1 "51" }
